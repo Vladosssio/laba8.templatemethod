@@ -5,7 +5,7 @@ def test_tea_preparation():
     tea = Tea()
     assert tea.is_ready == False
     tea.prepare_recipe()
-    assert tea.is_ready == Fasle
+    assert tea.is_ready == False
 
 def test_coffee_preparation():
     coffee = Coffee()
